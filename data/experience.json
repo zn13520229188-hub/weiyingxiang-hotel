@@ -1,0 +1,90 @@
+{
+  "intro": {
+    "kicker": { "zh": "EXPERIENCE", "en": "EXPERIENCE" },
+    "title": {
+      "zh": "一天的节奏，由我们自己决定",
+      "en": "The rhythm of the day, decided by you"
+    },
+    "text": {
+      "zh": "从清晨的第一杯茶到夜晚的最后一盏灯，蔚印象把时间还给你。",
+      "en": "From the first cup of tea in the morning to the last lamp at night — Wei Impression gives your time back to you."
+    }
+  },
+  "items": [
+    {
+      "id": "breakfast",
+      "name": { "zh": "晨光早餐", "en": "Morning Table" },
+      "kicker": { "zh": "07:00 – 10:30", "en": "07:00 – 10:30" },
+      "description": {
+        "zh": "本地食材，慢火烹饪。义乌的麦饼、东河的杨梅、现磨的豆浆——用一餐早饭，认识这座城市。",
+        "en": "Local ingredients, cooked slowly. Yiwu wheat cakes, Donghe bayberries, freshly ground soy milk — meet the city over breakfast."
+      },
+      "details": [
+        { "zh": "每日现做 · 本地风味", "en": "Made fresh daily · local flavours" },
+        { "zh": "庭院露台位可选", "en": "Courtyard & terrace seating" },
+        { "zh": "素食与清真餐可定制", "en": "Vegetarian & halal on request" }
+      ],
+      "image": "/images/food.jpg"
+    },
+    {
+      "id": "tea",
+      "name": { "zh": "午后茶事", "en": "Afternoon Tea" },
+      "kicker": { "zh": "14:00 – 17:00", "en": "14:00 – 17:00" },
+      "description": {
+        "zh": "大堂书廊的一角，茶烟升起。一壶明前绿茶，几枚手作点心，是忙碌一天里最值得虚度的两小时。",
+        "en": "In a corner of the reading lounge, steam rises from a pot of pre-Qingming green tea. Handmade pastries beside it — the most worthwhile two hours of a busy day."
+      },
+      "details": [
+        { "zh": "精选明前绿茶 · 本地茶席", "en": "Fine green teas · local ceremony" },
+        { "zh": "手作点心 · 每日更换", "en": "Handmade pastries · daily rotation" },
+        { "zh": "向住店客人开放", "en": "Complimentary for guests" }
+      ],
+      "image": "/images/tea.jpg"
+    },
+    {
+      "id": "sleep",
+      "name": { "zh": "静谧睡眠计划", "en": "Deep Sleep Ritual" },
+      "kicker": { "zh": "NIGHT", "en": "NIGHT" },
+      "description": {
+        "zh": "我们把睡眠当作一项工程：全屋遮光、静音隔断、符合人体工学的床垫、可选的助眠香氛。夜是完整的。",
+        "en": "Sleep, treated as a craft: total blackout, silent walls, ergonomic mattresses, optional calming scents. The night stays whole."
+      },
+      "details": [
+        { "zh": "长绒棉寝具 · 可选软硬枕", "en": "Long-staple cotton linen · pillow menu" },
+        { "zh": "助眠香氛与白噪音", "en": "Calming scents & white noise" },
+        { "zh": "延迟退房可议", "en": "Late checkout on request" }
+      ],
+      "image": "/images/room-1.jpg"
+    },
+    {
+      "id": "care",
+      "name": { "zh": "管家服务", "en": "Quiet Care" },
+      "kicker": { "zh": "24 HOURS", "en": "24 HOURS" },
+      "description": {
+        "zh": "24 小时前台与管家服务，安静地站在你需要的地方：清晨的行李、深夜的热水、临行前的城市路线。",
+        "en": "A 24-hour front desk and butler service, quietly present where you need it: luggage at dawn, warm water at midnight, a city route before departure."
+      },
+      "details": [
+        { "zh": "24h 前台 · 无感入住", "en": "24h desk · touchless check-in" },
+        { "zh": "行李寄存 · 叫醒服务", "en": "Luggage hold · wake-up calls" },
+        { "zh": "AI 语音管家随时应答", "en": "AI voice concierge, always on" }
+      ],
+      "image": "/images/spa.jpg"
+    },
+    {
+      "id": "spaces",
+      "name": { "zh": "公共空间", "en": "Common Spaces" },
+      "kicker": { "zh": "LOBBY & BEYOND", "en": "LOBBY & BEYOND" },
+      "description": {
+        "zh": "大堂是安静的书廊，庭院是露天的客厅，顶层露台收藏义乌的天际线。公共空间的设计原则只有一个：让人愿意留下来。",
+        "en": "The lobby is a quiet reading lounge; the courtyard, an open-air living room; the rooftop terrace, a collector of Yiwu's skyline. One principle guides all public spaces: make people want to stay."
+      },
+      "details": [
+        { "zh": "大堂书廊 · 精选设计书刊", "en": "Reading lounge · design books" },
+        { "zh": "内庭院 · 树影与茶", "en": "Inner courtyard · trees & tea" },
+        { "zh": "顶层露台 · 天际线酒廊", "en": "Rooftop terrace · skyline lounge" }
+      ],
+      "image": "/images/lobby.jpg"
+    }
+  ]
+}

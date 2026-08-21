@@ -1,0 +1,82 @@
+{
+  "intro": {
+    "kicker": { "zh": "EXPLORE YIWU", "en": "EXPLORE YIWU" },
+    "title": {
+      "zh": "微度假，从酒店门口开始",
+      "en": "The micro-vacation starts at our door"
+    },
+    "text": {
+      "zh": "义乌不只有商贸。江畔的落日、老街的烟火、古镇的石板路——这座城市值得多留一天。",
+      "en": "Yiwu is more than a marketplace. Riverside sunsets, old-street lanterns, ancient town stone paths — the city deserves one more day."
+    }
+  },
+  "destinations": [
+    {
+      "id": "market",
+      "name": { "zh": "国际商贸城", "en": "The World's Marketplace" },
+      "kicker": { "zh": "5 MIN · 车程", "en": "5 MIN · DRIVE" },
+      "description": {
+        "zh": "全球最大的小商品市场，7.5 万个摊位，180 万种商品。来这里不是购物，是看世界如何运转。",
+        "en": "The world's largest small-commodity market — 75,000 booths, 1.8 million products. Come not to shop, but to watch the world work."
+      },
+      "image": "/images/city-1.jpg"
+    },
+    {
+      "id": "river",
+      "name": { "zh": "义乌江 · 滨江步道", "en": "Yiwu Riverside Walk" },
+      "kicker": { "zh": "10 MIN · 步行", "en": "10 MIN · WALK" },
+      "description": {
+        "zh": "傍晚的江风是这座城市最慷慨的赠予。沿江慢走或骑行，看落日把水面染成琥珀色。",
+        "en": "The evening river breeze is the city's most generous gift. Walk or cycle the riverbank as the sunset turns the water amber."
+      },
+      "image": "/images/light.jpg"
+    },
+    {
+      "id": "fotang",
+      "name": { "zh": "佛堂古镇", "en": "Fotang Ancient Town" },
+      "kicker": { "zh": "30 MIN · 车程", "en": "30 MIN · DRIVE" },
+      "description": {
+        "zh": "明清石板街、老商号、手作工坊。穿越六百年的义乌，在午后阳光下慢慢走。",
+        "en": "Ming-Qing stone streets, old merchant houses, artisan workshops. Six hundred years of Yiwu, walked slowly in the afternoon sun."
+      },
+      "image": "/images/city-2.jpg"
+    },
+    {
+      "id": "green",
+      "name": { "zh": "城郊绿意", "en": "Green Edges of the City" },
+      "kicker": { "zh": "20–40 MIN · 车程", "en": "20–40 MIN · DRIVE" },
+      "description": {
+        "zh": "廿三里茶山、岩口水库、华溪森林公园——义乌的背面，是山、水与茶。",
+        "en": "Tea hills, reservoirs and forest parks — Yiwu's other side is mountains, water and tea."
+      },
+      "image": "/images/detail-plant.jpg"
+    }
+  ],
+  "itinerary": {
+    "kicker": { "zh": "48-HOUR ITINERARY", "en": "48-HOUR ITINERARY" },
+    "title": {
+      "zh": "在义乌，慢活 48 小时",
+      "en": "48 quiet hours in Yiwu"
+    },
+    "days": [
+      {
+        "day": { "zh": "第一日", "en": "Day One" },
+        "items": [
+          { "zh": "晨起 · 庭院早餐", "en": "Morning · courtyard breakfast" },
+          { "zh": "上午 · 国际商贸城半日", "en": "Forenoon · half day at the market" },
+          { "zh": "午后 · 大堂书廊下午茶", "en": "Afternoon · tea in the reading lounge" },
+          { "zh": "黄昏 · 滨江步道日落", "en": "Dusk · riverside sunset walk" }
+        ]
+      },
+      {
+        "day": { "zh": "第二日", "en": "Day Two" },
+        "items": [
+          { "zh": "晨起 · 江畔晨跑", "en": "Morning · riverside run" },
+          { "zh": "上午 · 佛堂古镇漫步", "en": "Forenoon · Fotang Ancient Town" },
+          { "zh": "午后 · 茶山小憩", "en": "Afternoon · tea hills rest" },
+          { "zh": "夜间 · 顶层露台夜色", "en": "Night · rooftop terrace" }
+        ]
+      }
+    ]
+  }
+}

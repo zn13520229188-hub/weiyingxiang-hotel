@@ -1,0 +1,32 @@
+{
+  "greeting": {
+    "zh": "您好，我是蔚印象的 AI 顾问。这座酒店安静地藏在义乌市中心——您可以问我：",
+    "en": "Hello, I am the Wei Impression AI concierge. Our hotel is tucked away in central Yiwu — you may ask me:"
+  },
+  "topics": [
+    {
+      "id": "intro",
+      "label": { "zh": "酒店介绍", "en": "About the hotel" },
+      "answer": {
+        "zh": "蔚印象设计师酒店位于义乌市中心，是一家城市微度假设计师酒店。我们以东方克制美学——留白、光影、木质与石材——构建了 68 间客房与套房。大堂是安静的书廊，顶层露台收藏城市天际线。这里不制造热闹，只提供安静。",
+        "en": "Wei Impression is a design-led micro-vacation hotel in central Yiwu. We build 68 rooms and suites in quiet Eastern restraint — blank space, light, wood and stone. The lobby is a reading lounge; the rooftop collects the skyline. We make no noise — only quiet."
+      }
+    },
+    {
+      "id": "stay",
+      "label": { "zh": "入住建议", "en": "Stay advice" },
+      "answer": {
+        "zh": "我建议您这样安排：白天把时间交给城市——国际商贸城、佛堂古镇、滨江步道；傍晚回到酒店，在大堂书廊喝一壶茶；夜晚交给睡眠计划——全屋遮光与静音设计，会让您睡得像在深山里。若您想彻底慢下来，庭院私寓是不错的选择，有自己的小院和茶席。",
+        "en": "My suggestion: give your days to the city — the Trade Market, Fotang Ancient Town, the riverside walk — and return for tea in the reading lounge at dusk. Nights belong to our Deep Sleep Ritual: total blackout and silent rooms, like sleeping in a mountain valley. For a complete slow-down, choose the Courtyard Suite — it has its own garden and tea table."
+      }
+    },
+    {
+      "id": "city",
+      "label": { "zh": "城市推荐", "en": "City guide" },
+      "answer": {
+        "zh": "义乌最值得的三件事：傍晚六点的义乌江——落日会把水面染成琥珀色；清晨的国际商贸城——7.5 万个摊位，看世界如何运转；还有半小时车程外的佛堂古镇——明清石板街，六百年烟火。若是春秋两季，城郊的茶山也值得一去。",
+        "en": "Three things not to miss in Yiwu: the river at six in the evening, when the sunset turns the water amber; the Trade Market at opening hour — 75,000 booths, the world at work; and Fotang Ancient Town, thirty minutes away — Ming-Qing stone streets, six centuries of life. In spring or autumn, the tea hills are worth a day."
+      }
+    }
+  ]
+}

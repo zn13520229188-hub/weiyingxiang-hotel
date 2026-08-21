@@ -1,26 +1,84 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ============================================================
+   蔚印象设计师酒店 · 设计系统
+   安缦式克制：留白 · 光影 · 木质 · 石材 · 东方美学
+   ============================================================ */
+
+@theme {
+  /* 色彩令牌 */
+  --color-cream: #f4f1ea;        /* 主底 · 米白 */
+  --color-cream-deep: #ebe6db;   /* 次级底 */
+  --color-ink: #1c1b18;          /* 深墨 · 标题 */
+  --color-body: #4a463f;         /* 正文 */
+  --color-mute: #6f6a5e;         /* 弱化文字（保证小字号对比度） */
+  --color-line: #e2ddd2;         /* 分隔线 */
+  --color-wood: #7a6040;         /* 木色 · 点缀（保证小字号对比度） */
+  --color-sage: #7a8071;         /* 鼠尾草绿 · 辅助 */
+
+  /* 字体：衬线高级感，全系统栈零网络依赖（含 Windows SimSun 兜底） */
+  --font-serif: "Cormorant Garamond", "Songti SC", "STSong", SimSun, Didot,
+    Georgia, "Times New Roman", serif;
+  --font-sans: "Helvetica Neue", "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #d8cdb8;
+  color: var(--color-ink);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: #cfc8b8;
+  border-radius: 8px;
+}
+
+/* ---- 排版工具 ---- */
+
+/* 章节大留白 */
+.section-pad {
+  padding-block: clamp(96px, 14vh, 176px);
+}
+
+/* 英文衬线小标（kicker） */
+.kicker {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  color: var(--color-wood);
+}
+
+/* 大字距标题 */
+.tracking-luxe {
+  letter-spacing: 0.3em;
+}
+
+/* 细分割线 */
+.hairline {
+  height: 1px;
+  background: var(--color-line);
+}
+
+/* 正文优雅行距 */
+.prose-luxe p + p {
+  margin-top: 1.4em;
 }

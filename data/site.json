@@ -1,0 +1,25 @@
+{
+  "name": { "zh": "义乌市蔚印象设计师酒店", "en": "Wei Impression Designer Hotel, Yiwu" },
+  "brand": { "zh": "蔚印象", "en": "WEI IMPRESSION" },
+  "brandSub": { "zh": "设计师酒店", "en": "Designer Hotel" },
+  "tagline": { "zh": "城市中的隐世空间", "en": "A Hidden Sanctuary within the City" },
+  "positioning": { "zh": "城市微度假", "en": "Urban Micro-Vacation" },
+  "description": {
+    "zh": "蔚印象设计师酒店位于义乌市中心，以留白、光影、木质与石材，为旅人构建一处安静栖息的城市微度假空间。",
+    "en": "Tucked in the heart of Yiwu, Wei Impression Designer Hotel is a quiet sanctuary built from restraint, light, wood and stone."
+  },
+  "address": { "zh": "浙江省义乌市 · 市中心（详细地址待更新）", "en": "City Centre, Yiwu, Zhejiang, China (address TBD)" },
+  "phone": "+86 579 0000 0000",
+  "email": "stay@weiimpression.cn",
+  "coordinates": { "lat": 29.3066, "lng": 120.075 },
+  "established": 2026,
+  "roomsCount": 68,
+  "floors": 9,
+  "siteUrl": "https://weiimpression.cn",
+  "images": {
+    "hero": "/images/lobby.jpg",
+    "lobby": "/images/lobby.jpg",
+    "light": "/images/light.jpg",
+    "plant": "/images/detail-plant.jpg"
+  }
+}

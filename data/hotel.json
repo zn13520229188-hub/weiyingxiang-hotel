@@ -1,0 +1,94 @@
+{
+  "story": {
+    "kicker": { "zh": "THE STORY", "en": "THE STORY" },
+    "title": {
+      "zh": "在世界的货源地，造一处安静的停顿",
+      "en": "A quiet pause at the world's marketplace"
+    },
+    "paragraphs": [
+      {
+        "zh": "义乌，世界小商品之都，一座每小时都有货物流转的城市。蔚印象选择在这里，不是为了速度，而是为了停顿——为奔波而来的旅人，留一处可以慢下来的空间。",
+        "en": "Yiwu moves fast — goods flow through its markets every hour of every day. Wei Impression was conceived not for speed, but as a pause: a place where travellers can finally slow down."
+      },
+      {
+        "zh": "我们相信，真正高级的酒店不制造噪音。它用留白说话，用光影呼吸，用木与石的触感让人安定下来。",
+        "en": "We believe a truly refined hotel makes no noise. It speaks through restraint, breathes through light and shadow, and settles the mind with the touch of wood and stone."
+      }
+    ]
+  },
+  "design": {
+    "kicker": { "zh": "DESIGN PHILOSOPHY", "en": "DESIGN PHILOSOPHY" },
+    "title": {
+      "zh": "少即是多，静即是奢",
+      "en": "Less is more. Quiet is the new luxury."
+    },
+    "paragraphs": [
+      {
+        "zh": "设计不是装饰，而是氛围。蔚印象以米白与暖灰为底，让木材、石材、织物与植物各自安放；光线经过格栅与窗纱的过滤，在墙面留下缓慢移动的影子。",
+        "en": "Design here is atmosphere, not decoration. Warm whites and soft greys give wood, stone, linen and green their own place; light passes through lattice and sheer curtains, leaving slow shadows on the walls."
+      },
+      {
+        "zh": "每一处细节都经过克制地取舍——不摆多余的器物，不设喧嚣的灯光。留给你的，是空间本身。",
+        "en": "Every object is a deliberate subtraction. Nothing excessive, nothing loud — the space is left to you."
+      }
+    ],
+    "principles": [
+      { "zh": "留白", "en": "Restraint" },
+      { "zh": "光影", "en": "Light & Shadow" },
+      { "zh": "自然材质", "en": "Natural Materials" },
+      { "zh": "东方秩序", "en": "Eastern Order" }
+    ]
+  },
+  "service": {
+    "kicker": { "zh": "SERVICE PHILOSOPHY", "en": "SERVICE PHILOSOPHY" },
+    "title": {
+      "zh": "服务是隐形的，需求是提前被想到的",
+      "en": "Service should be invisible — needs anticipated, never announced"
+    },
+    "paragraphs": [
+      {
+        "zh": "我们不追求标准化的微笑，而追求恰到好处的在场。前台 24 小时亮着灯，但你几乎感觉不到它的存在——直到你需要它。",
+        "en": "We do not chase standardized smiles. The front desk is lit around the clock, yet nearly invisible — until the moment you need it."
+      },
+      {
+        "zh": "入住无需排队，问题无需等待。这座城市很忙，我们把安静留给你。",
+        "en": "Check-in without queues. Answers without waiting. The city is busy enough — we keep the quiet for you."
+      }
+    ],
+    "features": [
+      {
+        "icon": "key",
+        "title": { "zh": "智能入住", "en": "Smart Check-in" },
+        "text": {
+          "zh": "无感办理，快速入住；语音与 AI 助手随时应答，像有一位不打扰你的管家。",
+          "en": "Touchless check-in and an AI concierge that answers quietly — like a butler who never interrupts."
+        }
+      },
+      {
+        "icon": "moon",
+        "title": { "zh": "深度睡眠计划", "en": "Deep Sleep Ritual" },
+        "text": {
+          "zh": "遮光织物、静音环境与助眠香氛，把睡眠当作一项工程来完成。",
+          "en": "Blackout fabrics, silent rooms and calming scents — sleep treated as a craft."
+        }
+      },
+      {
+        "icon": "compass",
+        "title": { "zh": "城市向导", "en": "City Guide" },
+        "text": {
+          "zh": "从国际商贸城到老街巷，为每一位客人定制一条属于自己的义乌路线。",
+          "en": "From the international market to hidden alleys — a personal Yiwu route for every guest."
+        }
+      }
+    ]
+  },
+  "stats": [
+    { "value": "68", "label": { "zh": "间客房与套房", "en": "Rooms & Suites" } },
+    { "value": "9", "label": { "zh": "层 · 城市天际线", "en": "Floors" } },
+    { "value": "24h", "label": { "zh": "管家与前台服务", "en": "Concierge & Front Desk" } }
+  ],
+  "images": {
+    "main": "/images/hotel-hero.jpg",
+    "detail": "/images/detail-stone.jpg"
+  }
+}

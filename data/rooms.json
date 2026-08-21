@@ -1,0 +1,99 @@
+{
+  "intro": {
+    "kicker": { "zh": "ROOMS & SUITES", "en": "ROOMS & SUITES" },
+    "title": {
+      "zh": "以自然材质构建安静睡眠空间",
+      "en": "Quiet sleeping spaces built from natural materials"
+    },
+    "text": {
+      "zh": "让旅人在城市中恢复能量。没有多余的装饰，只有恰到好处的光、风与安静。",
+      "en": "Where travellers recover energy within the city. Nothing superfluous — just light, air and silence, in the right measure."
+    }
+  },
+  "rooms": [
+    {
+      "id": "hideaway-king",
+      "name": { "zh": "隐庐大床房", "en": "Hideaway King" },
+      "kicker": { "zh": "HIDEAWAY", "en": "HIDEAWAY" },
+      "area": 36,
+      "poem": {
+        "zh": "窗外的光被纱帘滤成柔软的黄昏，床是一整天的终点。",
+        "en": "Light filtered through sheer linen becomes a soft dusk — the bed is where the day ends."
+      },
+      "description": {
+        "zh": "以暖白与木色为底，大床居于房间中心，像岛。织物、灯光与隔音一起，把城市的喧嚣留在门外。",
+        "en": "Warm white and pale wood; the king bed sits at the centre like an island. Fabric, light and sound-proofing keep the city outside the door."
+      },
+      "facilities": [
+        { "zh": "1.8m 大床 · 长绒棉寝具", "en": "King bed · long-staple cotton linen" },
+        { "zh": "全屋遮光与静音设计", "en": "Blackout & silent-room design" },
+        { "zh": "独立淋浴 · 天然洗护", "en": "Rain shower · natural amenities" },
+        { "zh": "智能客控 · AI 语音管家", "en": "Smart controls · AI voice concierge" }
+      ],
+      "image": "/images/room-1.jpg"
+    },
+    {
+      "id": "twin-view",
+      "name": { "zh": "双景双床房", "en": "Twin View" },
+      "kicker": { "zh": "TWIN VIEW", "en": "TWIN VIEW" },
+      "area": 40,
+      "poem": {
+        "zh": "一张窗，两个方向：一面向城市灯火，一面向内心平静。",
+        "en": "One window, two directions — city lights on one side, inner calm on the other."
+      },
+      "description": {
+        "zh": "为结伴出行而设。两张床中间以木质格栅轻隔，保留各自安静，又不失彼此陪伴。",
+        "en": "Made for travelling together. A wooden lattice softly divides the twin beds — privacy for each, company for both."
+      },
+      "facilities": [
+        { "zh": "1.35m 双床 · 独立阅读灯", "en": "Twin beds · individual reading lights" },
+        { "zh": "格栅木隔断 · 动静分区", "en": "Lattice divider · zoned layout" },
+        { "zh": "迷你吧 · 本地茶饮", "en": "Minibar · local tea selection" },
+        { "zh": "智能客控 · AI 语音管家", "en": "Smart controls · AI voice concierge" }
+      ],
+      "image": "/images/room-2.jpg"
+    },
+    {
+      "id": "courtyard-suite",
+      "name": { "zh": "庭院私寓", "en": "Courtyard Suite" },
+      "kicker": { "zh": "COURTYARD SUITE", "en": "COURTYARD SUITE" },
+      "area": 58,
+      "poem": {
+        "zh": "一间属于自己的小院，让清晨的鸟鸣代替闹钟。",
+        "en": "A small courtyard of your own — where birdsong, not alarm, wakes you."
+      },
+      "description": {
+        "zh": "带私人庭院或阳台的套房。清晨在院子里喝第一杯茶，夜晚看星——微度假的完整形态。",
+        "en": "A suite with a private courtyard or terrace. First tea in the garden, stars at night — the complete micro-vacation."
+      },
+      "facilities": [
+        { "zh": "独立庭院 / 阳台", "en": "Private courtyard / terrace" },
+        { "zh": "会客区 · 茶席", "en": "Sitting area · tea ceremony table" },
+        { "zh": "浴缸 · 双台盆", "en": "Soaking tub · double vanity" },
+        { "zh": "智能客控 · AI 语音管家", "en": "Smart controls · AI voice concierge" }
+      ],
+      "image": "/images/room-3.jpg"
+    },
+    {
+      "id": "impression-penthouse",
+      "name": { "zh": "顶层印象套房", "en": "Impression Penthouse" },
+      "kicker": { "zh": "PENTHOUSE", "en": "PENTHOUSE" },
+      "area": 90,
+      "poem": {
+        "zh": "全城尽收眼底，而喧嚣在九层之下。",
+        "en": "The whole city below you — its noise nine floors away."
+      },
+      "description": {
+        "zh": "酒店最高处的套房，整面落地窗收藏义乌的天际线。傍晚的霞光、夜间的灯火，都是你的房间。",
+        "en": "The highest suite in the hotel, walled in glass, collecting Yiwu's skyline — dusk light and evening lamps become part of the room."
+      },
+      "facilities": [
+        { "zh": "全景落地窗 · 天际线景致", "en": "Floor-to-ceiling windows · skyline views" },
+        { "zh": "独立客厅 · 餐区", "en": "Separate living room · dining area" },
+        { "zh": "步入式衣帽间", "en": "Walk-in wardrobe" },
+        { "zh": "专属管家 · AI 礼宾", "en": "Personal butler · AI concierge" }
+      ],
+      "image": "/images/city-1.jpg"
+    }
+  ]
+}

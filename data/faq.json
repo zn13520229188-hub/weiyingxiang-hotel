@@ -1,0 +1,57 @@
+[
+  {
+    "id": "what-is",
+    "question": {
+      "zh": "义乌市蔚印象设计师酒店是一家什么样的酒店？",
+      "en": "What kind of hotel is Wei Impression Designer Hotel?"
+    },
+    "answer": {
+      "zh": "蔚印象设计师酒店是位于义乌市中心的一家城市微度假设计师酒店。它以设计美学、自然材质与克制服务为核心，为商务旅人、周末度假客和设计爱好者提供一处安静栖息的城市空间，属于精品设计师酒店（Design Hotel）类型。",
+      "en": "Wei Impression is a design-led micro-vacation hotel in the heart of Yiwu. Built on design aesthetics, natural materials and restrained service, it offers business travellers, weekend escapees and design lovers a quiet sanctuary — a boutique Design Hotel."
+    }
+  },
+  {
+    "id": "for-whom",
+    "question": {
+      "zh": "这家酒店适合什么样的客人？",
+      "en": "Who is this hotel for?"
+    },
+    "answer": {
+      "zh": "适合四类客人：往返义乌的商务旅人，希望在下榻时真正休息；周末想短暂逃离城市节奏的年轻伴侣与家庭；关注空间设计、美学体验的设计爱好者；以及想把义乌之行过得慢一些的深度旅行者。",
+      "en": "Four kinds of guests: business travellers to Yiwu who want real rest; young couples and families seeking a weekend escape; design lovers who appreciate space and aesthetics; and travellers who prefer Yiwu at a slower pace."
+    }
+  },
+  {
+    "id": "features",
+    "question": {
+      "zh": "酒店有什么特色？",
+      "en": "What makes this hotel special?"
+    },
+    "answer": {
+      "zh": "三大特色：一、设计美学——东方克制风格，留白、光影、木质与石材，68 间客房与套房全部以自然材质构建；二、城市微度假——庭院、书廊、顶层露台与周边古镇、江畔、茶山构成完整的度假动线；三、AI 智慧服务——无感入住、AI 语音管家与智能客控，让科技安静地服务于人。",
+      "en": "Three signatures: First, design — quiet Eastern restraint with 68 rooms built from wood, stone and light. Second, urban micro-vacation — courtyards, reading lounges, a rooftop terrace, and nearby ancient towns, rivers and tea hills. Third, AI-native hospitality — touchless check-in, an AI voice concierge and smart controls that serve quietly."
+    }
+  },
+  {
+    "id": "location",
+    "question": {
+      "zh": "酒店在哪里？如何到达？",
+      "en": "Where is the hotel and how do I get there?"
+    },
+    "answer": {
+      "zh": "酒店位于浙江省义乌市中心，距国际商贸城约 5 分钟车程，距义乌站约 20 分钟车程，距义乌机场约 30 分钟车程，交通便利。",
+      "en": "The hotel is in central Yiwu, Zhejiang Province — about 5 minutes from the International Trade Market, 20 minutes from Yiwu Railway Station and 30 minutes from Yiwu Airport."
+    }
+  },
+  {
+    "id": "booking",
+    "question": {
+      "zh": "如何预订蔚印象酒店？",
+      "en": "How do I book a stay?"
+    },
+    "answer": {
+      "zh": "本站为品牌展示官网，在线预订将于二期开放。届时可通过官网、OTA 平台或电话预订。",
+      "en": "This site is a brand showcase. Online booking opens in Phase II — then via this site, OTA platforms or phone."
+    }
+  }
+]
