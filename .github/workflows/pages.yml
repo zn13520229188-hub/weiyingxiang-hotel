@@ -34,6 +34,9 @@ jobs:
 
       - name: Build static export
         run: npm run build
+        env:
+          # GitHub Pages 子路径部署；EdgeOne 等根路径部署不设此变量
+          NEXT_PUBLIC_BASE_PATH: /weiyingxiang-hotel
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

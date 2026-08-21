@@ -5,11 +5,12 @@ import { useEffect } from "react";
 /**
  * 根路径 → 默认中文首页。
  * 静态导出不支持服务端 redirect()，改用客户端跳转；
- * URL 需含 basePath（GitHub Pages 仓库子路径）。
+ * 路径前缀跟随 NEXT_PUBLIC_BASE_PATH（构建时注入）。
  */
 export default function RootPage() {
   useEffect(() => {
-    window.location.replace("/weiyingxiang-hotel/zh");
+    const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
+    window.location.replace(`${base}/zh`);
   }, []);
 
   return (

@@ -1,12 +1,14 @@
 import type { NextConfig } from "next";
 
+/**
+ * basePath 由环境变量 NEXT_PUBLIC_BASE_PATH 控制，自动适配部署位置：
+ *   - GitHub Pages 子路径：构建时设 NEXT_PUBLIC_BASE_PATH=/weiyingxiang-hotel
+ *   - EdgeOne Pages / 本地 dev（根路径）：不设置即为空
+ */
 const nextConfig: NextConfig = {
-  /* GitHub Pages 静态导出：
-     - output: "export" 生成纯静态站点
-     - basePath 对应仓库名子路径（https://zn13520229188-hub.github.io/weiyingxiang-hotel/）
-     - trailingSlash 适配 GitHub Pages 目录寻址 */
+  /* 静态导出（纯静态站点，可部署到任意静态托管） */
   output: "export",
-  basePath: "/weiyingxiang-hotel",
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
   trailingSlash: true,
   images: {
     // 静态导出必须用 custom loader（官方约定）：

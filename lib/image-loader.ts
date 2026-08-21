@@ -1,12 +1,12 @@
 /**
- * 本地图片 loader —— 静态导出（GitHub Pages 子路径）专用。
+ * 本地图片 loader —— 静态导出专用。
  *
  * 背景：next/image 在 output: "export" 下必须使用 custom loader；
- * 且静态导出时 img 的 src 不会自动带 basePath 前缀，
- * 必须在这里手动补上，否则线上图片全部 404。
+ * 且静态导出时 img 的 src 不会自动带 basePath 前缀，必须手动补上。
  *
- * 注意：basePath 与 next.config.ts 保持一致；
- * 更换部署子路径（如腾讯云 /hotel）时同步修改此处。
+ * basePath 来源：构建时环境变量 NEXT_PUBLIC_BASE_PATH（与 next.config.ts 一致）：
+ *   - GitHub Pages 子路径部署：/weiyingxiang-hotel
+ *   - EdgeOne Pages / 本地 dev：空（根路径）
  */
 export default function localImageLoader({
   src,
@@ -15,5 +15,6 @@ export default function localImageLoader({
   width: number;
   quality?: number;
 }) {
-  return `/weiyingxiang-hotel${src}`;
+  const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  return `${base}${src}`;
 }
