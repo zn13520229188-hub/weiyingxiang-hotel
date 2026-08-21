@@ -1,6 +1,9 @@
 import type { MetadataRoute } from "next";
 import site from "@/data/site.json";
 
+/** 静态导出要求显式声明 */
+export const dynamic = "force-static";
+
 /** 站点地图 —— 全量 zh/en 页面，标注双语 alternate（GEO 友好） */
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = site.siteUrl;
