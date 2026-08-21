@@ -9,7 +9,10 @@ const nextConfig: NextConfig = {
   basePath: "/weiyingxiang-hotel",
   trailingSlash: true,
   images: {
-    unoptimized: true, // 静态导出需要，否则 next/image 会请求图片优化服务
+    // 静态导出必须用 custom loader（官方约定）：
+    // loader 会给本地图片 src 补 basePath 前缀，否则子路径部署图片 404
+    loader: "custom",
+    loaderFile: "./lib/image-loader.ts",
   },
 };
 

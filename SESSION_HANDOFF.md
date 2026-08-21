@@ -13,6 +13,11 @@
 - GEO：Hotel + FAQPage JSON-LD、每页独立 metadata/canonical、sitemap、robots、双语 404
 - 三专家审查（品牌/UX/AI 搜索）全部问题已修复，lint 0 警告 0 错误，`npm run build` 通过
 - 图片已本地化（16 张 Unsplash 安缦风占位图，已验证风格匹配）
+- **已部署 GitHub Pages（2026-08-21）**：
+  - 公开仓库：github.com/zn13520229188-hub/weiyingxiang-hotel
+  - 站点：https://zn13520229188-hub.github.io/weiyingxiang-hotel/（zh 首页 /zh/）
+  - 自动部署：push 到 main 即重新构建上线（约 2 分钟）
+  - 已做静态导出改造：basePath=/weiyingxiang-hotel、根路径客户端跳转、images.unoptimized
 
 ## 待确认 / 待办
 
